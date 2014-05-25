@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>slider</title>
+    <script src="../libs/jquery/jquery.js"></script>
+    <script src="../src/jquery.aaslider.js"></script>
+    <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
+    .js-slider {
+        margin: 0 auto;
+        margin-top: 100px;
+        width: 979px;
+        height: 401px;
+        overflow: hidden;
+        /*border-radius: 50px;*/
+    }
+
+    .js-slider li {
+      list-style: none;
+      width: 979px;
+      height: 401px;
+      text-align: center;
+    }
+    </style>
+</head>
+
+<body>
+    <ul class="js-slider">
+        <li><img src="banner/banner01.png" alt=""></li>
+        <li><img src="banner/banner02.png" alt=""></li>
+        <li><img src="banner/banner03.png" alt=""></li>
+        <li><img src="banner/banner04.png" alt=""></li>
+    </ul>
+    <script>
+    $('.js-slider').slider({
+        width: 979,
+        height: 401,
+        direction: 'right',
+        duration: 1000,
+        stopDuration: 1000,
+    });
+    </script>
+</body>
+
+</html>

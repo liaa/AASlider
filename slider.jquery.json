@@ -1,0 +1,26 @@
+{
+  "name": "aaslider",
+  "title": "AASlider",
+  "description": "slider with four direction support and more",
+  "version": "0.1.0",
+  "homepage": "https://github.com/liaa/AASliderr",
+  "author": {
+    "name": "liaa",
+    "email": "kidliaa@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/liaa/AASlider.git"
+  },
+  "bugs": "https://github.com/liaa/AASlider/issues",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/liaa/slider/blob/master/LICENSE-MIT"
+    }
+  ],
+  "dependencies": {
+    "jquery": "*"
+  },
+  "keywords": []
+}
