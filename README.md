@@ -3,7 +3,7 @@
 jQuery slider plugin with four direction support and more
 
 ## Getting Started
-[Demo page]()
+[Demo page](file:///Applications/MAMP/htdocs/portal/qianfu/html/slider/demo/index.html)
 
 In your web page:
 
